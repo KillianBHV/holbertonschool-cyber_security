@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -cd A-Za-z0-9 < /dev/urandom | head -c 20
+tr -cd [:alnum:] < /dev/urandom | head -c $1 
