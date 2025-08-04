@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-uname
+uname -n
