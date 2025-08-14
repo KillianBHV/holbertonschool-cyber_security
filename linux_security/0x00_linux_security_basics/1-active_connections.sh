@@ -1,2 +1,1 @@
-#!/bin/bash
-sudo ss -tanp
+sudo ss -t -a -n -p
