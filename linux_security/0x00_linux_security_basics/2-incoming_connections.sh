@@ -1,2 +1,2 @@
 #!/bin/bash
-ufw allow tcp to any port 80 incoming
+sudo ufw allow tcp to any port 80 incoming

@@ -1,1 +1,1 @@
-netstat -tupn
+sudo netstat -tupn
