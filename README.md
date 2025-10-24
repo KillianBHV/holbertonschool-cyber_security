@@ -1,5 +1,5 @@
 # HOLBERTONSCHOOL - CYBERSECURITY
-#### N.B.: Default Links redirects to the repo itself
+#### N.B.: Links with (--) format at the end of line redirect to the repo itself
 #### P.S.: README's are written at first in French, then translated over time
 
 # TRIMESTRE 1
@@ -24,3 +24,29 @@
 - [**Offensive vs Defensive Security**](https://github.com/KillianBHV/holbertonschool-cyber_security) ***COMING SOON***
 - [**Forensic Ethics & Methodologies**](https://github.com/KillianBHV/holbertonschool-cyber_security) ***COMING SOON***
 - [**Prompt Injections**](https://github.com/KillianBHV/holbertonschool-cyber_security) ***COMING SOON***
+
+# SECOND TRIMESTRE ***(Not started yet)***
+- [**Nmap Advanced Port Scans**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Insecure Direct Object Reference**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**File Inclusion**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Command Injection (CVE-2021-44228 Explained)**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Buffer Overflow**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Web Application Fast Incident Response**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Web Application Forensics**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Nmap Post Port Scan & Scripting**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Server-Side Request Forgery**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Understanding Vulnerabilities - Reading**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Understanding Vulnerabilities (Exploitation)**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**CVE, CWE and NVD**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Nessus**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Ruby Scripting (Cyber)**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Metasploit - Basic**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Metasploit - Scripting**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Advanced Web Attack Techniques**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Active Directory - Fundamentals**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Active Directory - Enumeration**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Active Directory - Exploitation**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Active Directory - Forensics**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Active Directory - Hardening**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+
+# THIRD TRIMESTRE ***(Not started yet)***
