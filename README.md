@@ -3,7 +3,7 @@
 ### Default Links redirects to the repo itself
 
 # TRIMESTRE 1
-- ** [Introduction to cyber security](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/cybersecurity_basics/0x00_introduction_cybersecurity)**
+- [**Introduction to cyber security**](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/cybersecurity_basics/0x00_introduction_cybersecurity)
 - ** [Networking Introduction - Reading](https://github.com/KillianBHV/holbertonschool-cyber_security)** *(No folder needed)*
 - ** [Linux Security Basics](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/linux_security/0x00_linux_security_basics)**
 - ** [Passive Reconnaissance](https://github.com/KillianBHV/tree/main/network_security/0x01_passive_reconnaissance)**
