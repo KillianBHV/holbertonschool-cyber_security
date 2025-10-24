@@ -4,11 +4,11 @@
 
 # TRIMESTRE 1
 - **[PROJECT 1] [Introduction to cyber security](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/cybersecurity_basics/0x00_introduction_cybersecurity)**
-- **[PROJECT 2] [Networking Introduction (No space needed)](https://github.com/KillianBHV/holbertonschool-cyber_security)**
-- PROJECT 3 - LINUX SECURITY BASICS
-- PROJECT 4 - PASSIVE RECONNAISSANCE
-- PROJECT 5 - ACTIVE RECONNAISSANCE
-- PROJECT 6 - PACKETS AND FRAMES
-- PROJECT 7 - NMAP LIVE HOST DISCOVERY
-- PROJECT 8 - WIRESHARK BASICS
-- PROJECT 9 - WEB FUNDAMENTALS
+- **[PROJECT 2] [Networking Introduction - Reading *(No folder needed)*](https://github.com/KillianBHV/holbertonschool-cyber_security)**
+- **[PROJECT 3] [Linux Security Basics](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/linux_security/0x00_linux_security_basics)**
+- **[PROJECT 4] [Passive Reconnaissance](https://github.com/KillianBHV/tree/main/network_security/0x01_passive_reconnaissance)**
+- **[PROJECT 5] [Active Reconnaissance](https://github.com/KillianBHV/tree/main/network_security/0x02_active_reconnaissance)**
+- **[PROJECT 6] [Packets and Frames - Reading *(No folder needed)*](https://github.com/KillianBHV/holbertonschool-cyber_security)**
+- **[PROJECT 7] [Nmap Live Hosts Discovery](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/network_security/0x04_nmap_live_hosts_discovery)**
+- **[PROJECT 8] [Wireshark Basics](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/network_security/0x05_wireshark_basics)**
+- **[PROJECT 9] [Web Fundamentals](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/web_application_security/0x00_web_fundamentals)**
