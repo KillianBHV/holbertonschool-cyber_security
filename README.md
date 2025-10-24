@@ -4,7 +4,7 @@
 
 # TRIMESTRE 1
 - **[PROJECT 1] [Introduction to cyber security](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/cybersecurity_basics/0x00_introduction_cybersecurity)**
-- PROJECT 2 - NETWORK INTRODUCTION
+- **[PROJECT 2] [Networking Introduction (No space needed)](https://github.com/KillianBHV/holbertonschool-cyber_security)**
 - PROJECT 3 - LINUX SECURITY BASICS
 - PROJECT 4 - PASSIVE RECONNAISSANCE
 - PROJECT 5 - ACTIVE RECONNAISSANCE
