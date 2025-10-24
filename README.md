@@ -1,13 +1,13 @@
 # HOLBERTONSCHOOL - CYBERSECURITY
-#### N.B.: README's are written at first in French, then translated over time
-### Default Links redirects to the repo itself
+#### N.B.: Default Links redirects to the repo itself
+#### P.S.: README's are written at first in French, then translated over time
 
 # TRIMESTRE 1
 - [**Introduction to cyber security**](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/cybersecurity_basics/0x00_introduction_cybersecurity)
 - [**Networking Introduction - Reading**](https://github.com/KillianBHV/holbertonschool-cyber_security) *(No folder needed)*
 - [**Linux Security Basics**](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/linux_security/0x00_linux_security_basics)
-- [**Passive Reconnaissance**](https://github.com/KillianBHV/tree/main/network_security/0x01_passive_reconnaissance)
-- [**Active Reconnaissance**](https://github.com/KillianBHV/tree/main/network_security/0x02_active_reconnaissance)
+- [**Passive Reconnaissance**](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/network_security/0x01_passive_reconnaissance)
+- [**Active Reconnaissance**](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/network_security/0x02_active_reconnaissance)
 - [**Packets and Frames - Reading**](https://github.com/KillianBHV/holbertonschool-cyber_security) *(No folder needed)*
 - [**Nmap Live Hosts Discovery**](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/network_security/0x04_nmap_live_hosts_discovery)
 - [**Wireshark Basics**](https://github.com/KillianBHV/holbertonschool-cyber_security/tree/main/network_security/0x05_wireshark_basics)
