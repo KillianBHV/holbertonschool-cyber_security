@@ -50,3 +50,18 @@
 - [**Active Directory - Hardening**](https://github.com/KillianBHV/holbertonschool-cyber_security)
 
 # THIRD TRIMESTRE ***(Not started yet)***
+- [**What is a shell**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Linux Privilege Escalation**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Windows Privilege Escalation**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Access Persistence Techniques**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Reverse Engineering Fundamentals**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Static Analysis in Reverse Engineering**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Dynamic Analysis in Reverse Engineering**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Malware Analysis in Reverse Engineering**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Mobile Application Fundamentals and Security**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Staic Analysis in Mobile Security**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Dynamic Analysis in Mobile Security**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**Ethics in Cybersecurity**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**ISO 2700X**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**NIST**](https://github.com/KillianBHV/holbertonschool-cyber_security)
+- [**General Data Protection & Privacy**](https://github.com/KillianBHV/holbertonschool-cyber_security)
