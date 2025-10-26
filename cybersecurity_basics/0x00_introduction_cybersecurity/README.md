@@ -3,7 +3,7 @@ STEP 0 : BASICS - CYBER
 ## 0. Did you install Kali?
 ### Write a bash script that displays the `distributor ID` in a concise single-line output.
 * Your script should have one line and new line only
-#### ```Do not use awk```
+#### ***Do not use `awk`***
 ```
 ┌──(yosri㉿hbtn-lab)-[…/cybersecurity_basics/0x00_cybersecurity_basics]
 └─$ ./0-release.sh
