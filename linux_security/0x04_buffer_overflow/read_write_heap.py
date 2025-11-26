@@ -7,7 +7,7 @@ import sys
 
 def get_heap_start_end(pid):
     """
-    Search the heap pool of a specified process 
+    Search the heap pool of a specified process
 
     :param pid: Target process
 
@@ -22,7 +22,7 @@ def get_heap_start_end(pid):
                     start_addr = int(start_addr, 16)
                     end_addr = int(end_addr, 16)
                     return start_addr, end_addr
-        
+
         print("[ERROR] heap segment not found in file")
         sys.exit(1)
     except Exception as e:
@@ -75,9 +75,9 @@ def search_replace_heap():
     :return: Nothing
     """
     if len(sys.argv) != 4:
-        print('Usage: read_write_heap.py <pid> <search_string> <replace_string>')
+        print('Usage: read_write_heap.py <pid> <search_str> <replace_str>')
         sys.exit(1)
-    
+
     process_id = sys.argv[1]
     search_string = sys.argv[2].encode()
     replace_string = sys.argv[3].encode().ljust(len(search_string), b'\x00')
@@ -89,7 +89,7 @@ def search_replace_heap():
     if offset == -1:
         print("[ERROR] Search string not found in heap")
         sys.exit(1)
-    
+
     writing_address = heap_start + offset
     write_to_heap(process_id, writing_address, replace_string)
 
