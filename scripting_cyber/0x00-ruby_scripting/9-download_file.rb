@@ -1,28 +1,25 @@
 #!/usr/bin/env ruby
-require 'uri'
+require 'open-uri'
 require 'fileutils'
-
-def download_file(url, local_path)
-  if url.nil? || local_path.nil?
-    puts "Usage: 9-download_file.rb URL LOCAL_FILE_PATH"
-    return
-  end
-
-  FileUtils.mkdir_p(File.dirname(local_path))
-  puts "Downloading file from #{url}..."
-
-  URI.open(url) do |file|
-    File.open(local_path, 'wb') do |out|
-      out.write(file.read)
-    end
-    puts "File downloaded and saved to #{local_path}"
-  end
-end
 
 if ARGV.length != 2
   puts "Usage: 9-download_file.rb URL LOCAL_FILE_PATH"
-else
-  url = ARGV[0]
-  local_path = ARGV[1]
-  download_file(url, local_path)
+  exit
+end
+
+url = ARGV[0]
+local_file_path = ARGV[1]
+
+puts "Downloading file from #{url}..."
+
+begin
+  URI.open(url) do |remote_file|
+    File.open(local_file_path, 'wb') do |local_file|
+      local_file.write(remote_file.read)
+    end
+  end
+  puts "File downloaded and saved to #{local_file_path}."
+rescue => e
+  puts "Error downloading file: #{e.message}"
+  exit 1
 end
