@@ -1,29 +1,32 @@
 #!/usr/bin/env ruby
+
 require 'digest'
 
-def password_cracker(hashed_password, dictionary_file)
-  unless File.exist?(dictionary_file)
-    puts "Error: Dictionary file '#{dictionary_file}' not found"
-    return
-  end
-
-  File.foreach(dictionary_file) do |w|
-    w = w.strip
-    hash = Digest::SHA256.hexdigest(w)
-
-    if hash == hashed_password:
-      puts "Password found: #{word}"
-      return
-    end
-  end
-  puts "Password not found in dictionary."
+if ARGV.length != 2
+  puts "Usage: 10-password_cracked.rb HASHED_PASSWORD DICTIONARY_FILE"
+  exit
 end
 
-if ARGV.length != 2
-  puts ""
-  return
-else
-  hashed_password = ARGV[0]
-  dictionary_file = ARGV[1]
-  password_cracker(hashed_password, dictionary_file)
+hashed_password = ARGV[0]
+dictionary_file = ARGV[1]
+
+unless File.exist?(dictionary_file)
+  puts "Error: Dictionary file not found."
+  exit
+end
+
+found = false
+File.foreach(dictionary_file) do |line|
+  word = line.chomp
+  word_hash = Digest::SHA256.hexdigest(word)
+  
+  if word_hash == hashed_password
+    puts "Password found: #{word}"
+    found = true
+    break
+  end
+end
+
+unless found
+  puts "Password not found in dictionary."
 end
