@@ -1,21 +1,22 @@
 #!/usr/bin/env ruby
+
 require 'net/http'
 require 'uri'
 require 'json'
 
-def get_request(uri)
+def get_request(url)
   uri = URI(url)
-  http = Net::HTTP.new(uri.host, uri.port)
-  http.use_ssl = (uri.scheme == 'https')
-  response = http.get(uri.request_uri)
-
-  puts "Response status: #{response.code} #{response.message}"
-  puts "\nResponse body:"
-
-  begin
-    json_data = JSON.parse(response.body)
-    puts JSON.pretty_generate(json_data)
-  rescue JSON::ParseError
-    puts response.body
+  response = Net::HTTP.get_response(uri)
+  
+  status_code = response.code
+  status_message = response.message
+  puts "Response status: #{status_code} #{status_message}"
+  
+  if response.code.to_i >= 200 && response.code.to_i < 300
+    puts "Response body:"
+    data = JSON.parse(response.body)
+    puts JSON.pretty_generate(data)
+  else
+    puts "Failed to retrieve data"
   end
 end
