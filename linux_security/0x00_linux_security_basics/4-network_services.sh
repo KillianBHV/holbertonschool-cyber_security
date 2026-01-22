@@ -1,1 +1,2 @@
-sudo netstat -tupn
+#!/bin/bash
+sudo netstat -tulpn
