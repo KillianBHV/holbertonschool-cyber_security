@@ -1,1 +1,1 @@
-lynis audit system
+sudo lynis audit system
