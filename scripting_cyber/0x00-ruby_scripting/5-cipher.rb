@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 class CaesarCipher
   def initialize(shift)
     @shift = shift
@@ -14,13 +15,18 @@ class CaesarCipher
   private
 
   def cipher(message, shift)
-    message.chars.map do |char|
-      if char.match?(/[A-Za-z]/)
-        base = char.ord < 91 ? 'A'.ord : 'a'.ord
-        ((char.ord - base + shift) % 26 + base).chr
+    result = ""
+
+    message.each_char do |ch|
+      if c >= 'A' and c <= 'Z'
+        result << ((c.ord - 65 + shift) % 26 + 65).chr
+      elsif c >= 'a' and c <= 'z'
+        result << ((c.ord - 97 + shift) % 26 + 97).chr
       else
-        char
+        result << c
       end
-    end.join
+    end
+
+    return result
   end
 end
