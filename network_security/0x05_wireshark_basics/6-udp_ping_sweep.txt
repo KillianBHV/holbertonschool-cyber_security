@@ -1,1 +1,1 @@
-udp.dstport==53 && udp.dstport==67 && udp.dstport==123
+udp.dstport == 53 && udp.dstport == 67 && udp.dstport == 123
