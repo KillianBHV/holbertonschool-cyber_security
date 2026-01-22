@@ -1,2 +1,2 @@
 #!/bin/bash
-iptables -L
+nmap $1
